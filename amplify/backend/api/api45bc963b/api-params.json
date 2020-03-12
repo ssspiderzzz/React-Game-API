@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactgameapi13c4bc85",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api45bc963b",
+    "apiName": "api45bc963b",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactgameapi13c4bc85"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-react-game-api-nodejs-135750-authRole",
+        "unAuthRoleName": "amplify-react-game-api-nodejs-135750-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactgameapi13c4bc85",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "tableName": "dynamo22bfff59",
+    "partitionKeyName": "players",
+    "partitionKeyType": "S",
+    "sortKeyName": "characters",
+    "sortKeyType": "S"
+}
